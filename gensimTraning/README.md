@@ -33,10 +33,6 @@ python -m opencc -c s2tw -i wiki_texts.txt -o wiki_zh_tw.txt
 python segment.py
 ```
 
----
-
-### *還沒完成的部分*
-
 5. 使用 gensim 的 word2vec 模型進行訓練
 ```
 python train.py
@@ -46,8 +42,6 @@ python train.py
 ```
 python demo.py
 ```
-
----
 
 ## 原始程式資料
 #### [zake7749/word2vec-tutorial](https://github.com/zake7749/word2vec-tutorial)

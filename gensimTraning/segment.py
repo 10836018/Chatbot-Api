@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 import jieba
 import logging
@@ -13,7 +12,7 @@ def main():
 
     # load stopwords set
     stopword_set = set()
-    with open('jieba_dict/stopwords.txt','r', encoding='utf-8') as stopwords:
+    with open('jieba_dict/stopwords.txt', 'r', encoding='utf-8') as stopwords:
         for stopword in stopwords:
             stopword_set.add(stopword.strip('\n'))
 
