@@ -10,7 +10,7 @@ pip install opencc-python-reimplemented
 
 ## 訓練步驟
 
-1. 取得[維基百科數據](https://dumps.wikimedia.org/zhwiki/) *( 選 `pages-articles.xml.bz2` 結尾的檔案 )*
+1. 取得[維基百科數據](https://zh.wikipedia.org/wiki/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD) *( 選 `pages-articles.xml.bz2` 結尾的檔案 )*
 
 2. 把下載的維基百科數據置於與專案同個目錄
 ```
