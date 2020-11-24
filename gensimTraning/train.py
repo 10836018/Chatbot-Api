@@ -4,7 +4,7 @@ import logging
 from gensim.models import word2vec
 
 
-def main():
+def train():
 
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     sentences = word2vec.LineSentence("wiki_seg.txt")
@@ -18,4 +18,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    train()

@@ -5,7 +5,7 @@ import sys
 from gensim.corpora import WikiCorpus
 
 
-def main():
+def wiki_to_text():
 
     if len(sys.argv) != 2:
         print("Usage: python " + sys.argv[0] + " wiki_data_path")
@@ -24,4 +24,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    wiki_to_text()

@@ -3,7 +3,7 @@ from gensim import models
 import logging
 
 
-def main():
+def demo():
 	logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 	model = models.Word2Vec.load('word2vec.model')
 
@@ -38,4 +38,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+	demo()
